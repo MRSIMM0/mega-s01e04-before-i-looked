@@ -1,8 +1,9 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
+closed: 2026-10-30
 ---
 
 # Morning digest
@@ -77,3 +78,15 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Issues
+
+| # | Issue | Blocked by | Worker | Closed |
+|---|-------|-----------|--------|--------|
+| 1 | [Run log reader: parse and aggregate one night](https://github.com/MRSIMM0/mega-s01e04-before-i-looked/issues/1) | — | Codex · GPT-6 · not recorded | 2026-10-30 |
+| 2 | [Digest page: GET /digest/:night](https://github.com/MRSIMM0/mega-s01e04-before-i-looked/issues/2) | #1 | Codex · GPT-6 · not recorded | 2026-10-30 |
+| 3 | [Digest JSON: GET /api/digest/:night](https://github.com/MRSIMM0/mega-s01e04-before-i-looked/issues/3) | #1 | Codex · GPT-6 · not recorded | 2026-10-30 |
+| 4 | [Board: link each night to its digest](https://github.com/MRSIMM0/mega-s01e04-before-i-looked/issues/4) | #2 | Codex · GPT-6 · not recorded | 2026-10-30 |
+| 5 | [Test digest routes and edge cases](https://github.com/MRSIMM0/mega-s01e04-before-i-looked/issues/5) | #2, #3 | Codex · GPT-6 · not recorded | 2026-10-30 |
+| 6 | [Publish a marked standalone digest preview on GitHub Pages](https://github.com/MRSIMM0/mega-s01e04-before-i-looked/issues/6) | #4, #5 | Codex · GPT-6 · not recorded | 2026-10-30 |
+| 7 | [Remove the preview marker and archive the plan](https://github.com/MRSIMM0/mega-s01e04-before-i-looked/issues/7) | #6, reviewer acceptance | Codex · GPT-6 · not recorded | 2026-10-30 |
